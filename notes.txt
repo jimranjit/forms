@@ -1,0 +1,10 @@
+Forms - HTML Elements that allow to collect data
+Form control/widgets - each form element like text field, dropdown etc
+Form data - data that is associated with the form element typically sent to server for CRUD operations
+Form action - url that will be invoked on form submit. if the action is empty, it will be submitted to the same url
+form method - GET/POST etc
+
+Why do we need to put all the form elements in form element?
+  1. semantically correct
+  2. we can use action or method attribute
+  3. allows your form to be properly included in the DOM - document.forms
